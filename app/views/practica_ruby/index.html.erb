@@ -1,0 +1,15 @@
+
+<p><%= Date.today %> </p>
+<% for i in 1..5%>
+<p>Hola mundo <%= i %></p>
+<% end %>
+
+<% opcion = 2 %>
+<% case opcion %>
+<% when opcion = 1 %>
+<%= 'Servicio al cliente'%>
+<% when opcion = 2 %>
+<%= 'Ventas' %>
+<% when opcion = 3 %>
+<%= 'Reclamos' %>
+<% end%>
